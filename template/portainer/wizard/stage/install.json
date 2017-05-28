@@ -42,8 +42,7 @@
       "admin_passpwd_hash": [
         "portainer.enviroment.admin_passpwd_hash"
       ]
-    },
-    "template": ["\\*.tpl", "\\*.yml", "\\*.yaml"]
+    }
   }
 }
 
