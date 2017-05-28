@@ -31,13 +31,13 @@
   ],
   "binding": {
     "type": "yaml",
-    "file": "docker-compose.yml",
+    "file": "docker-compose.yml.tpl",
     "data": {
       "http_port": ["portainer.ports[0]"],
       "container_name": ["portainer.container_name"],
       "admin_passpwd_hash": ["portainer.environment.admin_passpwd_hash"]
     },
-    "template": ["\\*.tpl", "\\*.yml", "\\*.yaml"]
+    "template": ["\\*.tpl"]
   }
 }
 
