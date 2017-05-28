@@ -36,6 +36,7 @@
       "http_port": ["portainer.ports[0]"],
       "container_name": ["portainer.container_name"],
       "admin_passpwd_hash": ["portainer.environment.admin_passpwd_hash"]
-    }
+    },
+    "template": ["\\*.tpl", "\\*.env"]
   }
 }
