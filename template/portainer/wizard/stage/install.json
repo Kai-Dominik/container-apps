@@ -20,7 +20,7 @@
         "admin_passpwd_hash": {
           "type": "string",
           "title": "Admin hashed password",
-          "value": "$$2y$$05$$rEUL7OpRDBcCYPqBbK.lseEcoQuaOAth0ePmCZcw02LWnhoaiw3lu",
+          "default": "$2y$05$rEUL7OpRDBcCYPqBbK.lseEcoQuaOAth0ePmCZcw02LWnhoaiw3lu",
           "description": "{{PORTAINER_HASHED_PASSWD_DESC}}",
 		   "required": true
         }
@@ -35,8 +35,7 @@
     "file": "docker-compose.yml",
     "data": {
       "http_port": ["portainer.ports[0]"],
-      "container_name": ["portainer.container_name"],
-      "admin_passpwd_hash": ["portainer.environment.admin_passpwd_hash"]
+      "container_name": ["portainer.container_name"]
     },
     "template": ["*.tpl", ".*.tpl"]
   }
