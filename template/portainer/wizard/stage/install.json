@@ -2,7 +2,7 @@
   "api_version": "v1",
   "title": "{{PORTAINER_NAME}}",
   "default": {
-    "admin-passpwd-hash":"$2y$05$rEUL7OpRDBcCYPqBbK.lseEcoQuaOAth0ePmCZcw02LWnhoaiw3lu"
+    "admin_passpwd_hash":"$2y$05$rEUL7OpRDBcCYPqBbK.lseEcoQuaOAth0ePmCZcw02LWnhoaiw3lu"
   },
   "wizard": [
     {
@@ -20,7 +20,7 @@
           "description": "{{PORTAINER_NAME_DESC}}",
 		      "required": true
         },
-        "admin-passpwd-hash": {
+        "admin_passpwd_hash": {
           "type": "string",
           "title": "Admin hashed password",
           "description": "{{PORTAINER_HASHED_PASSWD_DESC}}",
