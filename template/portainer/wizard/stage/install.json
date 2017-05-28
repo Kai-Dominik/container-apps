@@ -1,7 +1,7 @@
 {
   "api_version": "v1",
   "title": "{{PORTAINER_NAME}}",
-  "default": {
+  "defaults": {
     "admin_passpwd_hash": "$$2y$$05$$rEUL7OpRDBcCYPqBbK.lseEcoQuaOAth0ePmCZcw02LWnhoaiw3lu"
   },
   "wizard": [
