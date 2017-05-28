@@ -2,7 +2,7 @@
 #https://qnap-dev.github.io/container-station-api/dqpkg.html#other-files-under-shared
 portainer:
   restart: always
-  container_name: portainer.io
+  container_name: Portainer.io
   command: --admin-password '<@admin_passpwd_hash@>'
   image: portainer/portainer:latest
   volumes:
