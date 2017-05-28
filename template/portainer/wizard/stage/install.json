@@ -36,12 +36,8 @@
       "http_port": [
         "portainer.ports[0]"
       ],
-      "container_name": [
-        "portainer.container_name"
-      ],
-      "admin_passpwd_hash": [
-        "portainer.enviroment.admin_passpwd_hash"
-      ]
+      "container_name": "portainer.container_name",
+      "admin_passpwd_hash": "portainer.enviroment.admin_passpwd_hash"
     }
   }
 }
