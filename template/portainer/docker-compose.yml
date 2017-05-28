@@ -1,0 +1,13 @@
+#https://media.readthedocs.org/pdf/portainer/latest/portainer.pdf
+#https://qnap-dev.github.io/container-station-api/dqpkg.html#other-files-under-shared
+portainer:
+  restart: always
+  container_name: portainer.io
+  command: --admin-password '<@admin_passpwd_hash@>'
+  environment:
+    admin_passpwd_hash: $2y$05$rEUL7OpRDBcCYPqBbK.lseEcoQuaOAth0ePmCZcw02LWnhoaiw3lu
+  image: portainer/portainer:latest
+  volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+  ports:
+    - "9000:9000"
