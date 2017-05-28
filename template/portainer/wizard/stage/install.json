@@ -37,6 +37,6 @@
       "container_name": ["portainer.container_name"],
       "admin_passpwd_hash": ["portainer.environment.admin_passpwd_hash"]
     },
-    "template": ["\*.tpl", "\*.env"]
+    "template": ["*.tpl", "*.env"]
   }
 }
