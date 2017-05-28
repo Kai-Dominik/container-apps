@@ -3,7 +3,7 @@
         "description": "Simple management UI for Docker.",
         "repository": "dockerhub",
         "arch": "amd64",
-	    "icon":"https://camo.githubusercontent.com/6666f9541056ad3d6f553ca8ddfd42ed4991459d/687474703a2f2f706f727461696e65722e696f2f696d616765732f6c6f676f5f616c742e706e67g",
+	    "icon":"https://camo.githubusercontent.com/6666f9541056ad3d6f553ca8ddfd42ed4991459d/687474703a2f2f706f727461696e65722e696f2f696d616765732f6c6f676f5f616c742e706e67",
         "displayName": "Portainer",
         "name": "portainer",
         "version": "latest",
@@ -427,6 +427,7 @@
     }
 ]
 
+        
         
         
         
