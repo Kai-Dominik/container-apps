@@ -9,19 +9,19 @@
           "type": "integer",
           "title": "HTTP Port",
           "description": "{{PORTAINER_WEB_HOST_PORT_DESC}}",
-		      "required": true
+		  "required": true
         },
         "container_name": {
           "type": "string",
           "title": "Containner Name",
           "description": "{{PORTAINER_NAME_DESC}}",
-		      "required": true
+		  "required": true
         },
         "admin_passpwd_hash": {
           "type": "string",
           "title": "Admin hashed password",
           "description": "{{PORTAINER_HASHED_PASSWD_DESC}}",
-		      "required": true
+		   "required": true
         }
       },
       "form": [
@@ -33,11 +33,9 @@
     "type": "yaml",
     "file": "docker-compose.yml",
     "data": {
-      "http_port": [
-        "portainer.ports[0]"
-      ],
+      "http_port": "portainer.ports[0]",
       "container_name": "portainer.container_name",
-      "admin_passpwd_hash": "portainer.enviroment.admin_passpwd_hash"
+      "admin_passpwd_hash": "portainer.environment.admin_passpwd_hash"
     }
   }
 }
