@@ -10,6 +10,12 @@
           "title": "HTTP Port",
           "description": "{{PORTAINER_WEB_HOST_PORT_DESC}}",
 		      "required": true
+        },
+        "container_name": {
+          "type": "string",
+          "title": "Containner Name",
+          "description": "{{PORTAINER_NAME_DESC}}",
+		      "required": true
         }
       },
       "form": [
@@ -23,7 +29,10 @@
     "data": {
       "http_port": [
         "portainer.ports[0]"
-      ]
+      ],
+      "container_name": "container_name"
     }
   }
 }
+
+        

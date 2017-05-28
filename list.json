@@ -3,6 +3,7 @@
         "description": "Simple management UI for Docker.",
         "repository": "dockerhub",
         "arch": "amd64",
+	    "icon":"https://portainer.io/images/logo.png",
         "displayName": "Portainer",
         "name": "portainer",
         "version": "latest",
@@ -16,7 +17,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png",
         "displayName": "GitLab",
         "name": "gitlab",
-        "version": "8.9.6",
+        "version": "latest",
         "location": "https://hub.docker.com/r/sameersbn/gitlab/",
         "type": "app"
     },
@@ -426,4 +427,6 @@
     }
 ]
 
+        
+        
         
