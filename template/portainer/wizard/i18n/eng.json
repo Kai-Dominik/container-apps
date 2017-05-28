@@ -2,7 +2,9 @@
   "PORTAINER_NAME": "Portainer",
   "PORTAINER_NAME_DESC": "The name of the container.",
   "PORTAINER_WEB_HOST_PORT_DESC": "The port of the Portainer server. Defaults to 9000.",
-  "PORTAINER_CONFIGURE": "Configure Portainer"
+  "PORTAINER_CONFIGURE": "Configure Portainer",
+  "PORTAINER_HASHED_PASSWD_DESC": "A hashed admin password"
 }
 
+        
         

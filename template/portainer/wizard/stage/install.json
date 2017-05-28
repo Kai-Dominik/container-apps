@@ -1,6 +1,9 @@
 {
   "api_version": "v1",
   "title": "{{PORTAINER_NAME}}",
+  "default": {
+    "admin-passpwd-hash":"$2y$05$rEUL7OpRDBcCYPqBbK.lseEcoQuaOAth0ePmCZcw02LWnhoaiw3lu"
+  },
   "wizard": [
     {
       "title": "{{PORTAINER_CONFIGURE}}",
@@ -16,6 +19,12 @@
           "title": "Containner Name",
           "description": "{{PORTAINER_NAME_DESC}}",
 		      "required": true
+        },
+        "admin-passpwd-hash": {
+          "type": "string",
+          "title": "Admin hashed password",
+          "description": "{{PORTAINER_HASHED_PASSWD_DESC}}",
+		      "required": true
         }
       },
       "form": [
@@ -30,9 +39,10 @@
       "http_port": [
         "portainer.ports[0]"
       ],
-      "container_name": "container_name"
+      "container_name": "portainer.container_name"
     }
   }
 }
 
+        
         
