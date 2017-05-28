@@ -3,7 +3,7 @@
         "description": "Simple management UI for Docker.",
         "repository": "dockerhub",
         "arch": "amd64",
-	    "icon":"https://portainer.io/images/logo.png",
+	    "icon":"http://portainer.io/images/logo.png",
         "displayName": "Portainer",
         "name": "portainer",
         "version": "latest",
@@ -427,6 +427,7 @@
     }
 ]
 
+        
         
         
         
