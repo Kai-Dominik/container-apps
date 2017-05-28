@@ -31,7 +31,7 @@
   ],
   "binding": {
     "type": "yaml",
-    "file": "docker-compose.yml.tpl",
+    "file": "docker-compose.yml",
     "data": {
       "http_port": ["portainer.ports[0]"],
       "container_name": ["portainer.container_name"],
